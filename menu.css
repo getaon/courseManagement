@@ -1,0 +1,53 @@
+
+#headmenu{
+	height: 50px;
+	background-color: black;
+	color: white;
+	text-align: right;
+	border-left: white;
+}
+ #headmenu  span{
+	display: inline-block;
+  	position: relative;  
+  	
+}
+
+#sidemenu{
+	width: 200px;
+	height: 750px;
+	background-color: aqua; 
+}
+.sidemenu_up{
+	height: 200px;
+	background-color: gray;
+	border: medium;
+	border-color: black;
+	color: white;
+}
+
+.sidemenu_up > .glyphicon, input{
+	margin-top: 130px;
+	margin-left: 10px; 
+	
+}
+.sidemenu_middle > ul > li{
+	margin: 10px;
+}
+
+.sidemenu_bottom > button{
+	margin: 5px;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+#headmenu > .glyphicon, .fa{
+	margin: 15px;
+	font-size: 24px;
+}
+
+#footer{
+	height:50px;
+	background-color: #c0c0c0;
+	color: white;
+	text-align: center;
+}
